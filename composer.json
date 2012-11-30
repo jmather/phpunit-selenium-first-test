@@ -1,0 +1,8 @@
+{
+	"require-dev": {
+		"phpunit/phpunit-selenium": "*"
+	},
+    "config":{
+        "bin-dir":"bin"
+    }
+}
