@@ -13,7 +13,7 @@ class ExampleTest extends PHPUnit_Extensions_Selenium2TestCase
     public function testTitle()
     {
         $this->url('/');
-        $title = 'It\'s Majax';
+        $title = "It's Majax";
         $this->assertEquals($title, $this->title());
     }
 
@@ -21,7 +21,7 @@ class ExampleTest extends PHPUnit_Extensions_Selenium2TestCase
     {
         $this->url('/');
         $this->byXPath('//section[@class="widget widget_categories"]//a[text() = "PHP"]')->click();
-        $title = 'PHP | It\'s Majax';
+        $title = "PHP | It's Majax";
         $this->assertEquals($title, $this->title());
     }
 
