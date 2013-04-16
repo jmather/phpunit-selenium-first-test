@@ -2,7 +2,7 @@
 
 class ExampleTest extends PHPUnit_Extensions_Selenium2TestCase
 {
-    public $browser = '*firefox';
+    public $browser = 'firefox';
 
     public function setUp()
     {
