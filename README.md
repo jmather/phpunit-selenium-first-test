@@ -14,11 +14,12 @@ first PHPUnit and Selenium test up and running.
 
 You will want to fetch the latest Selenium Server JAR file from [here](http://seleniumhq.org/download/)
 
-    wget http://selenium.googlecode.com/files/selenium-server-standalone-2.25.0.jar
-    java --jar selenium-server-standalone-2.25.0.jar
+    wget http://selenium.googlecode.com/files/selenium-server-standalone-2.32.0.jar
+    java -jar selenium-server-standalone-2.32.0.jar
 
 ## 2. Running Your Tests
 
     php bin/phpunit
 
 That's it! For more information, look at `tests/ExampleTest.php`
+
