@@ -23,3 +23,5 @@ You will want to fetch the latest Selenium Server JAR file from [here](http://se
 
 That's it! For more information, look at `tests/ExampleTest.php`
 
+Curious about what all you can do? Check the [Selenium2TestCase](https://github.com/sebastianbergmann/phpunit-selenium/blob/master/Tests/Selenium2TestCaseTest.php)
+
